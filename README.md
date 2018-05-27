@@ -136,3 +136,6 @@ mvn clean package -DskipTests=true
 ##### Step 4: Locate the zip-with-dependencies.zip file
 Once the Maven command above is finished it will produce a "zip-with-dependencies.zip" file in your target folder. You will upload this file when [creating a run](http://docs.aws.amazon.com/devicefarm/latest/developerguide/how-to-create-test-run.html) on AWS Device Farm.
 
+<img src="https://github.com/awslabs/aws-device-farm-appium-tests-for-sample-app/blob/master/readme_images/appium-tests.gif" width="400">
+
+
