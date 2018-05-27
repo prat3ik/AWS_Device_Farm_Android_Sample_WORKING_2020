@@ -1,3 +1,6 @@
+/*
+ * (C) Copyright 2018 by Pratik Patel (https://github.com/prat3ik/)
+ */
 package utils;
 
 import org.openqa.selenium.By;

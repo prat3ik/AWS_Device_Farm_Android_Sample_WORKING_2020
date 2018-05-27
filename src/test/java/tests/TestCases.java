@@ -1,3 +1,6 @@
+/*
+ * (C) Copyright 2018 by Pratik Patel (https://github.com/prat3ik/)
+ */
 package tests;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -8,6 +11,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageobjects.AndroidMessageAppPO;
 
+/**
+ * This is the Main Test Cases Class, All the test cases are defined in this.
+ *
+ *  @author prat3ik
+ */
 public class TestCases extends BaseTest {
 
     @BeforeTest

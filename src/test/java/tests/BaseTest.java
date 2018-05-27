@@ -1,6 +1,5 @@
-/**
- * Year: 2018-2019
- * Pratik Patel
+/*
+ * (C) Copyright 2018 by Pratik Patel (https://github.com/prat3ik/)
  */
 package tests;
 
@@ -8,15 +7,17 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import utils.PropertyUtils;
 import utils.WaitUtils;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -25,6 +26,7 @@ import java.util.concurrent.TimeUnit;
  * An abstract base for all of the Android tests within this package
  * <p>
  * Responsible for setting up the Appium test Driver
+ *  @author prat3ik
  */
 public abstract class BaseTest {
     /**
@@ -60,20 +62,31 @@ public abstract class BaseTest {
 
 
     /**
-     * This method will be call after the last test case executed or after class finishes the execution of all tests
-     * It will  Restart the app after every test class to go back to the main screen and to reset the behavior
+     * This method will always execute after each test case, This will quit the WebDriver instance called at the last
      */
-    @AfterClass
-    public void restartApp() {
-        driver.resetApp();
+    @AfterMethod(alwaysRun = true)
+    public void afterMethod(final ITestResult result) throws IOException {
+        String fileName = result.getTestClass().getName() + "_" + result.getName();
+        System.out.println("Test Case: [" + fileName + "] executed..!");
+        if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP) {
+            takeScreenshot(result.getMethod().getMethodName().toLowerCase() + "_" + System.currentTimeMillis());
+        }
+        resetApp();
     }
 
     /**
-     * This will quit the WebDriver instance called at the last
+     * This method will be called after class finishes the execution of all tests
+     */
+    @AfterClass
+    public void afterClass() {
+    }
+
+    /**
+     * At the end of the Test Suite(At last) this method would be called
      */
     @AfterSuite
     public void tearDownAppium() {
-        driver.quit();
+        quitDriver();
     }
 
     /**
@@ -83,14 +96,14 @@ public abstract class BaseTest {
     private void setDesiredCapabilitiesForLocalExecution(DesiredCapabilities desiredCapabilities) {
         String PLATFORM_NAME = PropertyUtils.getProperty("android.platform");
         String PLATFORM_VERSION = PropertyUtils.getProperty("android.platform.version");
-        String APP_PATH = PropertyUtils.getProperty("android.app.path");
+        String APP_NAME = PropertyUtils.getProperty("android.app.name");
+        String APP_RELATIVE_PATH = PropertyUtils.getProperty("android.app.location") + APP_NAME;
+        String APP_PATH = this.getAbsolutePath(APP_RELATIVE_PATH);
         String DEVICE_NAME = PropertyUtils.getProperty("android.device.name");
         String APP_PACKAGE_NAME = PropertyUtils.getProperty("android.app.packageName");
         String APP_ACTIVITY_NAME = PropertyUtils.getProperty("android.app.activityName");
         String APP_FULL_RESET = PropertyUtils.getProperty("android.app.full.reset");
         String APP_NO_RESET = PropertyUtils.getProperty("android.app.no.reset");
-
-        System.out.println(APP_PATH);
 
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, PLATFORM_NAME);
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, PLATFORM_VERSION);
@@ -112,4 +125,43 @@ public abstract class BaseTest {
         driver.manage().timeouts().implicitlyWait(IMPLICIT_WAIT, TimeUnit.SECONDS);
     }
 
+    /**
+     * This will quite the android driver instance
+     */
+    private void quitDriver() {
+        try {
+            this.driver.quit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * It will  Restart the app after every test class to go back to the main screen and to reset the behavior
+     */
+    protected void resetApp() {
+        driver.resetApp();
+    }
+
+    /**
+     * This method used to take the screenshots of failures screen(Only visible at AWS Device Farm Screenshot tab)
+     * @param name
+     * @return
+     */
+    public boolean takeScreenshot(final String name) {
+        String screenshotDirectory = System.getProperty("appium.screenshots.dir", System.getProperty("java.io.tmpdir", ""));
+        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        return screenshot.renameTo(new File(screenshotDirectory, String.format("%s.png", name)));
+    }
+
+    /***
+     * This will get the Absolute path
+     * @param appRelativePath
+     * @return
+     */
+    private static String getAbsolutePath(String appRelativePath) {
+        File file = new File(appRelativePath);
+        return file.getAbsolutePath();
+    }
 }

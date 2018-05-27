@@ -1,8 +1,9 @@
+/*
+ * (C) Copyright 2018 by Pratik Patel (https://github.com/prat3ik/)
+ */
 package pageobjects;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import utils.PropertyUtils;
@@ -10,6 +11,10 @@ import utils.WaitUtils;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Base Page Object Class: This class assign the driver instance and WaitLibrary
+ *  @author prat3ik
+ */
 public abstract class BasePO {
     public final static int IMPLICIT_WAIT = PropertyUtils.getIntegerProperty("implicitWait", 30);
     private static final int KEYBOARD_ANIMATION_DELAY = 1000;

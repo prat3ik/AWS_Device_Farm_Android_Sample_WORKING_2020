@@ -1,9 +1,14 @@
+/*
+ * (C) Copyright 2018 by Pratik Patel (https://github.com/prat3ik/)
+ */
 package utils;
 
 import io.appium.java_client.android.AndroidElement;
 
 /**
  * This class contains custom appium/selenium methods for Webelement
+ *
+ *  @author prat3ik
  */
 public class AppiumUtils {
     public static WaitUtils waitUtils = new WaitUtils();
