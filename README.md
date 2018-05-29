@@ -25,7 +25,38 @@ This is a collection of example Appium TestNG tests written for the AWS Device F
 ## Creating a new Java Appium Test Project Using Maven
 1. Create a new Maven project using a Java IDE. **The example in this tutorial is for [IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/download/)**.
 
-2. Set up your POM file using the official AWS Device Farm documentation for [TestNG](http://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-android-appium-java-testng.html)
+2. Save the following XML assembly to *src/main/assembly/zip.xml.*
+    - The following XML is an assembly definition that, when configured, instructs Maven to build a .zip file containing everything in the root of your build output directory and the dependency-jars directory:
+        ```
+        <assembly
+        xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+      <id>zip</id>
+      <formats>
+        <format>zip</format>
+      </formats>
+      <includeBaseDirectory>false</includeBaseDirectory>
+      <fileSets>
+        <fileSet>
+          <directory>${project.build.directory}</directory>
+          <outputDirectory>./</outputDirectory>
+          <includes>
+            <include>*.jar</include>
+          </includes>
+        </fileSet>
+        <fileSet>
+          <directory>${project.build.directory}</directory>
+          <outputDirectory>./</outputDirectory>
+          <includes>
+            <include>/dependency-jars/</include>
+          </includes>
+        </fileSet>
+      </fileSets>
+        </assembly>
+        ```
+
+3. Set up your POM file using the official AWS Device Farm documentation for [TestNG](http://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-android-appium-java-testng.html)
 	- You will need the following dependencies in your POM file
 		
         ```
