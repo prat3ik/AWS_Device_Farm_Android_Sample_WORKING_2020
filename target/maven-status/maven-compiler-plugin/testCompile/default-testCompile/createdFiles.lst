@@ -1,0 +1,8 @@
+utils/UnableToLoadPropertiesException.class
+utils/AppiumUtils.class
+pageobjects/BasePO.class
+utils/WaitUtils.class
+tests/BaseTest.class
+pageobjects/AndroidMessageAppPO.class
+tests/TestCases.class
+utils/PropertyUtils.class
