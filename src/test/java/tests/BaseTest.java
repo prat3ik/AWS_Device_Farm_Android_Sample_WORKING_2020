@@ -66,12 +66,12 @@ public abstract class BaseTest {
      */
     @AfterMethod(alwaysRun = true)
     public void afterMethod(final ITestResult result) throws IOException {
-        String fileName = result.getTestClass().getName() + "_" + result.getName();
-        System.out.println("Test Case: [" + fileName + "] executed..!");
-        if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP) {
-            takeScreenshot(result.getMethod().getMethodName().toLowerCase() + "_" + System.currentTimeMillis());
-        }
-        resetApp();
+//        String fileName = result.getTestClass().getName() + "_" + result.getName();
+//        System.out.println("Test Case: [" + fileName + "] executed..!");
+//        if (result.getStatus() == ITestResult.FAILURE || result.getStatus() == ITestResult.SKIP) {
+//            takeScreenshot(result.getMethod().getMethodName().toLowerCase() + "_" + System.currentTimeMillis());
+//        }
+//        resetApp();
     }
 
     /**
@@ -109,10 +109,10 @@ public abstract class BaseTest {
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, PLATFORM_VERSION);
         desiredCapabilities.setCapability(MobileCapabilityType.APP, APP_PATH);
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, DEVICE_NAME);
-        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, APP_PACKAGE_NAME);
-        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, APP_ACTIVITY_NAME);
-        desiredCapabilities.setCapability(MobileCapabilityType.FULL_RESET, APP_FULL_RESET);
-        desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET, APP_NO_RESET);
+//        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, APP_PACKAGE_NAME);
+//        desiredCapabilities.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, APP_ACTIVITY_NAME);
+//        desiredCapabilities.setCapability(MobileCapabilityType.FULL_RESET, APP_FULL_RESET);
+//        desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET, APP_NO_RESET);
     }
 
     /**

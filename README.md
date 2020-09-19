@@ -157,6 +157,10 @@ This is a collection of example Appium TestNG tests written for the AWS Device F
 First Read the [Device Farm documentation](http://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-android-calabash.html). Ensure that all the steps are completed and that your project and POM file are set up correctly. 
 
 ##### Step 2: Go into your Maven Appium Directory
+- Make sure to set 
+	```
+    execution.type=aws
+	```
 Go into your Appium Maven project directory in the terminal or command prompt.
 
 ##### Step 3: Package the Test Content

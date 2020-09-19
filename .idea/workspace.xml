@@ -1,141 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a6e4c49d-919d-4548-8d40-81df89d91e70" name="Default" comment="Added APk and Fixd Issues- QA Certified - Pratik">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases.java" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCases.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/AppiumUtils.java" afterPath="$PROJECT_DIR$/src/test/java/utils/AppiumUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configuration.properties" afterPath="$PROJECT_DIR$/target/test-classes/configuration.properties" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/octo.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AWS_Device_Farm_Android_Sample-1.0-SNAPSHOT-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AWS_Device_Farm_Android_Sample-1.0-SNAPSHOT-tests.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AWS_Device_Farm_Android_Sample-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AWS_Device_Farm_Android_Sample-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/AndroidMessageAppPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/AndroidMessageAppPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/zip-with-dependencies.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/zip-with-dependencies.zip" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#6694#0" expanded="true" />
-                <element signature="e#3321#3322#0" expanded="true" />
-                <element signature="e#3349#3350#0" expanded="true" />
-                <element signature="e#5858#5859#0" expanded="true" />
-                <element signature="e#5891#5892#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppiumUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppiumUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaitUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/WaitUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#3500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCases.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#1592#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuration.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/configuration.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidMessageAppPO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#2390#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-                <element signature="e#2119#2120#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2315#2316#0" expanded="true" />
-                <element signature="e#2387#2388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#1557#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,152 +52,24 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>path</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/PK_Workspace/Appium" value="PREVIEW" />
-        <entry key="$USER_HOME$/PK_Workspace/AppiumPOM" value="PREVIEW" />
-        <entry key="$USER_HOME$/PK_Workspace/Appium_android" value="PREVIEW" />
-        <entry key="$USER_HOME$/PK_Workspace/SeleniumFramework" value="PREVIEW" />
-        <entry key="$USER_HOME$/PK_Workspace/Smule_Android" value="PREVIEW" />
-        <entry key="$USER_HOME$/PK_Workspace/Smule_Android1" value="PREVIEW" />
-        <entry key="$USER_HOME$/Selenium/Facebook_SignUp_Selenium" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../Value_add" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../Value_add_Android" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../value-ad-appium-tests" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Value_add" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/Value_add/Android_AndroidMessageApp" value="PREVIEW" />
-      </map>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPO.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/TestCases.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/AppiumUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="245" />
-    <option name="width" value="1920" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1hjJbB0IIZlLulFgUepyU3XsfwL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="PropertyUtils.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="AWS_Device_Farm_Android_Sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AWS_Device_Farm_Android_Sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -297,42 +77,24 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.TestCases.verifyUserCanSendMessage (1)">
+  <component name="RunManager" selected="TestNG.TestCases.verifyUserCanSendMessage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestCases" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AWS_Device_Farm_Android_Sample" />
       <extension name="coverage">
         <pattern>
@@ -340,28 +102,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCases" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestCases.verifyUserCanSendMessage (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.verifyUserCanSendMessage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AWS_Device_Farm_Android_Sample" />
       <extension name="coverage">
         <pattern>
@@ -369,28 +120,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCases" />
       <option name="METHOD_NAME" value="verifyUserCanSendMessage" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="0" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TestCases.verifyUserCanSendMessage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.verifyUserCanSendMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AWS_Device_Farm_Android_Sample" />
       <extension name="coverage">
         <pattern>
@@ -398,54 +140,34 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCases" />
       <option name="METHOD_NAME" value="verifyUserCanSendMessage" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="TestNG.TestCases.verifyUserCanSendMessage" />
@@ -454,12 +176,13 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCases.verifyUserCanSendMessage (1)" />
-        <item itemvalue="TestNG.TestCases" />
         <item itemvalue="TestNG.TestCases.verifyUserCanSendMessage" />
+        <item itemvalue="TestNG.TestCases" />
+        <item itemvalue="TestNG.TestCases.verifyUserCanSendMessage (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -473,234 +196,42 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestCases - 2018.05.27 at 09h 30m 27s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 30m 37s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 47m 52s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 48m 25s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 49m 32s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 49m 45s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 50m 59s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2018.05.27 at 09h 51m 50s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases_verifyUserCanSendMessage_(1) - 2018.05.27 at 09h 58m 23s.xml">
-      <configuration name="TestCases.verifyUserCanSendMessage (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases_verifyUserCanSendMessage_(1) - 2018.05.27 at 10h 24m 41s.xml">
-      <configuration name="TestCases.verifyUserCanSendMessage (1)" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="15" y="25" width="1920" height="1000" extended-state="0" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added APk and Fixd Issues- QA Certified - Pratik" />
     <option name="LAST_COMMIT_MESSAGE" value="Added APk and Fixd Issues- QA Certified - Pratik" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#1592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1557#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="96" column="76" lean-forward="false" selection-start-line="96" selection-start-column="72" selection-end-line="96" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#6694#0" expanded="true" />
-            <element signature="e#3321#3322#0" expanded="true" />
-            <element signature="e#3349#3350#0" expanded="true" />
-            <element signature="e#5858#5859#0" expanded="true" />
-            <element signature="e#5891#5892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/4.1.2/java-client-4.1.2.jar!/io/appium/java_client/remote/MobileCapabilityType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#6694#0" expanded="true" />
-            <element signature="e#3321#3322#0" expanded="true" />
-            <element signature="e#3349#3350#0" expanded="true" />
-            <element signature="e#5858#5859#0" expanded="true" />
-            <element signature="e#5891#5892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#1592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WaitUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#3500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/AppiumUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/AndroidMessageAppPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#2390#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2315#2316#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1557#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1600523272405">
+      <screen x="1536" y="-97" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1536.937/1536.-97.1920.1057@1536.-97.1920.1057" timestamp="1600523272405" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1600523272404">
+      <screen x="1536" y="-97" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1536.937/1536.-97.1920.1057@1536.-97.1920.1057" timestamp="1600523272404" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1600523272404">
+      <screen x="1536" y="-97" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1536.937/1536.-97.1920.1057@1536.-97.1920.1057" timestamp="1600523272404" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1600523272405">
+      <screen x="1536" y="-97" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1536.937/1536.-97.1920.1057@1536.-97.1920.1057" timestamp="1600523272405" />
+    <state x="2203" y="64" width="586" height="735" key="find.popup" timestamp="1600520708556">
+      <screen x="1536" y="-97" width="1920" height="1057" />
+    </state>
+    <state x="2203" y="64" width="586" height="735" key="find.popup/0.23.1536.937/1536.-97.1920.1057@1536.-97.1920.1057" timestamp="1600520708556" />
   </component>
   <component name="masterDetails">
     <states>

@@ -22,62 +22,10 @@ public class AndroidMessageAppPO extends BasePO {
         super(driver);
     }
 
-    @AndroidFindBy(id = "next")
-    AndroidElement nextButton;
+    @AndroidFindBy(id = "com.android.permissioncontroller:id/permission_deny_button")
+    AndroidElement denyButton;
 
-    public void clickOnNextButton() {
-        nextButton.click();
-    }
-
-    @AndroidFindBy(id = "android:id/button1")
-    AndroidElement messageDialogOKButton;
-
-    public void clickOnMessageDialogOKButton() {
-        messageDialogOKButton.click();
-    }
-
-    @AndroidFindBy(id = "com.google.android.apps.messaging:id/start_new_conversation_button")
-    AndroidElement startNewConversationButton;
-
-    public void clickOnStartNewConversationButton() {
-        startNewConversationButton.click();
-    }
-
-    @AndroidFindBy(id = "com.google.android.apps.messaging:id/recipient_text_view")
-    AndroidElement toTextField;
-
-    public void typeInToTextField(String text) {
-        toTextField.sendKeys(text);
-        waitUtils.waitForElementToBeVisible(sendToButton, driver);
-
-    }
-
-    @AndroidFindBy(id = "com.google.android.apps.messaging:id/contact_picker_create_group")
-    AndroidElement sendToButton;
-
-    public void clickOnSendToButton() {
-        sendToButton.click();
-        waitUtils.waitForElementToBeVisible(smsButton, driver);
-    }
-
-    @AndroidFindBy(id = "com.google.android.apps.messaging:id/compose_message_text")
-    AndroidElement smsTextFeild;
-
-    public void typeInSMSTextField(String text) {
-        smsTextFeild.sendKeys(text);
-    }
-
-    @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc='Send SMS']/android.widget.LinearLayout")
-    AndroidElement smsButton;
-
-    public void clickOnSMSButton() {
-        smsButton.click();
-    }
-
-    @AndroidFindBy(id = "com.google.android.apps.messaging:id/message_text_and_info")
-    AndroidElement sentMessageLayout;
-
-    public boolean isMessageSent() {
-        return AppiumUtils.isElementDisplayed(sentMessageLayout);
+    public void clickOnDenyButton() {
+        denyButton.click();
     }
 }
